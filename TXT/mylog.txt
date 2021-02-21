@@ -1,7 +1,0 @@
-# Log Format
-# ZCZC WEEK# MINUTES LogCode Description
-# LogCode: https://osp4diss.vlsm.org/ETC/logCodes.txt
-ZCZC W00  10 L03 Github related: Create repository
-ZCZC W00   5 L05 GSGS related: Github Page
-ZCZC W00   5 L04 GitHub Pages related: Create Github Page
-ZCZC W00  75 L21 VirtualBox related: Install GNU/Linux, etc.
