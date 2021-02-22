@@ -7,3 +7,4 @@ ZCZC W00   5 L04 GitHub Pages related: Create Github Page
 ZCZC W00  75 L21 VirtualBox related: Install GNU/Linux, etc.
 ZCZC W00  15 L04 GitHub Pages related: Customize Github Page
 ZCZC W00   5 L04 GitHub Pages related: Merge gh-pages branch with master
+ZCZC W00  75 L02 ZOOM related: First synchronous class
