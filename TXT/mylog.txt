@@ -12,5 +12,6 @@ ZCZC W00  15 L08 Trying Something: Trying out Linux and Vim
 ZCZC W00   5 L05 GSGS related: Enable SSH in Windows
 ZCZC W00  10 L04 GitHub Pages related: Delete Jekyll theme
 ZCZC W01 115 L02 ZOOM related: Second synchronous class
-ZCZC W01  10 L11 Assignment #1
+ZCZC W01  10 L11 VirtualBox: Add bash aliases
 ZCZC W01  30 L08 Trying something: Trying out ssh to Virtualbox
+ZCZC W01  90 L11 Assignment #1: Lem Biru VM Week 0
