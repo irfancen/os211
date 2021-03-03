@@ -16,4 +16,6 @@ ZCZC W01  10 L11 VirtualBox: Add bash aliases
 ZCZC W01  30 L08 Trying something: Trying out ssh to Virtualbox
 ZCZC W01  90 L11 Assignment #1: Lem Biru VM Week 0
 ZCZC W01   5 L05 GSGS related: Personal Access Token Github
+ZCZC W01  15 L05 GSGS related: GSGS for POP QUIZ
+ZCZC W01  25 L01 SCELE related: POP QUIZ
 ZCZC W01   5 L08 Trying something: Access kawung.cs.ui.ac.id through ssh
