@@ -22,3 +22,4 @@ ZCZC W01   5 L08 Trying something: Access kawung.cs.ui.ac.id through ssh
 ZCZC W01  10 L05 GSGS related: GSGS for POP QUIZ
 ZCZC W01  30 L12 Assignment #2
 ZCZC W01  10 L14 Assignment #4
+ZCZC W01  10 L16 Assignment #6
