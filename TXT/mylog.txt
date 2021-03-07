@@ -31,3 +31,4 @@ ZCZC W01  20 L23 Discord: Discussion on tunneling to Badak
 ZCZC W01  15 L08 Trying something: Tunneling to Badak
 ZCZC W01  45 L05 GSGS related: Setting up Jekyll
 ZCZC W01 160 L17 Assignment #7
+ZCZC W01  30 L18 Assignment #8
