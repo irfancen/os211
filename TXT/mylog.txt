@@ -26,3 +26,5 @@ ZCZC W01  10 L14 Assignment #4
 ZCZC W01  30 L15 Assignment #5
 ZCZC W01   5 L16 Assignment #6
 ZCZC W01  25 L08 Trying something: Changing colors for root
+ZCZC W01  20 L23 Discord: Discussion on tunneling to Badak
+ZCZC W01  15 L08 Trying something: Tunnelig to Badak
