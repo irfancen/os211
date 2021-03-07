@@ -33,3 +33,4 @@ ZCZC W01  20 L23 Discord: Discussion on tunneling to Badak
 ZCZC W01  15 L08 Trying something: Tunneling to Badak
 ZCZC W01  45 L05 GSGS related: Setting up Jekyll
 ZCZC W01  15 L04 Github Pages related: Customize Github Page
+ZCZC W01  60 L08 Trying something: Customizing Vi Color Scheme
