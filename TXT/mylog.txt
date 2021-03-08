@@ -35,4 +35,4 @@ ZCZC W01  45 L05 GSGS related: Setting up Jekyll
 ZCZC W01  15 L04 Github Pages related: Customize Github Page
 ZCZC W02  60 L08 Trying something: Customizing Vi Color Scheme
 ZCZC W02  30 L08 Trying something: Customizing Vi interface
-ZCZC W01  80 L02 ZOOM related: Third synchronous class
+ZCZC W02  80 L02 ZOOM related: Third synchronous class
