@@ -1,0 +1,10 @@
+title:		    "OS211"
+author:         "irfancen"
+urlweb:         "https://irfancen.github.io/os211"
+urlgithub:      "https://github.com/irfancen/os211"
+urlghpage:      "https://irfancen.github.io/os211"
+keywords:       "jekyll, testing"
+sitemap:          "true"
+plugins:
+    - jekyll-sitemap
+    - jekyll-seo-tag
