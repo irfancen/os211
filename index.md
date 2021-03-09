@@ -3,8 +3,9 @@ layout: "layout"
 title: Home
 ---
 
-# Operating Systems 2021-1 (OS211)
-## Muhammad Irfan Junaidi --- Jakarta
+# Operating Systems 2021-1 (OS211) {#title}
+## Muhammad Irfan Junaidi --- Jakarta {#author}
+ 
+## Welcome to my Github Page!
 
-## Welcome to my [Github Page](https://irfancen.github.io/os211/)!
-
+This site contains the Weekly Log and Tasks of Operating Systems Course I am currently taking.

@@ -11,6 +11,20 @@ body {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
+.home {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo {
+    margin: 0;
+    font-size: 30px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -30,13 +44,29 @@ body {
     padding: 0;
 }
 
-.navbar ul li {
-    padding: 10px;
+.nav-item {
+    padding-left: 10px;
 }
 
-.navbar ul li a {
-    text-decoration: none;
+.navbar > ul > li > a {
     color: white;
+    width: 100%;
+    line-height: 40px;
+}
+
+.navbar > ul > li > a:hover {
+    transition: ease 0.25s;
+    padding-left: 12px;
+}
+
+.maintain {
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+}
+
+.maintain a {
+    color: #adffe8;
 }
 
 .content-container {
@@ -46,10 +76,41 @@ body {
     overflow-x: hidden;
 }
 
+#title {
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+#author {
+    margin: 0 0 50px 0;
+    text-align: center;
+}
+
 .content {
     height: fit-content;
     padding: 30px;
     overflow-wrap: break-word;
+}
+
+.content > h2 {
+    margin: 0;
+}
+
+.content > h3 {
+    margin: 30px 0 0 0;
+}
+
+.content > h3 > a {
+    color: #267CB9;
+}
+
+.content > h3 > a:hover {
+    text-decoration: underline;
+}
+
+.content > p {
+    margin: 5px 0 0 0;
 }
 
 ::-webkit-scrollbar {
@@ -85,5 +146,3 @@ body {
 ::-webkit-scrollbar-corner {
     background: transparent;
 }
-
-
