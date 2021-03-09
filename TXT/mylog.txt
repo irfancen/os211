@@ -39,3 +39,4 @@ ZCZC W02  80 L02 ZOOM related: Third synchronous class
 ZCZC W02  30 L05 GSGS related: GSGS Github Page with Jekyll
 ZCZC W02 240 L04 Github Pages related: Customize Github Page with Jekyll
 ZCZC W02  60 L04 Github Pages related: Customize Github Page layout
+ZCZC W02  30 L06 Reading References/Books/Documents: OSC Chapter 16-17
