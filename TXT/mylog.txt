@@ -43,3 +43,4 @@ ZCZC W02  30 L06 Reading References/Books/Documents: OSC Chapter 16-17
 ZCZC W02  30 L08 Trying something: Trying Demo Week 02
 ZCZC W02  20 L10 Assignment (General): Add public key and checksum
 ZCZC W02   5 L10 Assignment (General): Add myrank.txt for Week 01
+ZCZC W02  15 L10 Assignment (General): ATM cbkadal myscript.sh
