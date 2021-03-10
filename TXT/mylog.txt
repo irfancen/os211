@@ -44,3 +44,4 @@ ZCZC W02  30 L08 Trying something: Trying Demo Week 02
 ZCZC W02  20 L10 Assignment (General): Add public key and checksum
 ZCZC W02   5 L10 Assignment (General): Add myrank.txt for Week 01
 ZCZC W02  15 L10 Assignment (General): ATM cbkadal myscript.sh
+ZCZC W02  90 L04 Github Pages related: Change layout for future weekly tasks
