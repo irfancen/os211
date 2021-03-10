@@ -16,12 +16,12 @@ a {
 }
 
 .home {
-    margin-bottom: 20px;
     text-align: center;
 }
 
 .logo {
     margin: 0;
+    padding: 20px;
     font-size: 30px;
 }
 
@@ -33,36 +33,75 @@ a {
 .sidebar {
     display: block;
     width: 300px;
-    padding: 20px;
     background-color: #267CB9;
     color: white;
 }
 
-.sidebar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-item {
-    padding-left: 10px;
-}
-
-.navbar > ul > li > a {
-    color: white;
+.navbar {
     width: 100%;
-    line-height: 40px;
 }
 
-.navbar > ul > li > a:hover {
-    transition: ease 0.25s;
-    padding-left: 12px;
+.navbar a {
+    display: block;
+    color: white;
+    padding: 12px 30px;
+}
+
+.navbar a:hover {
+    background-color: #4496CF;
+    transition: 0.25s ease;
+    -webkit-transition: 0.25s ease;
+}
+
+.dropdown {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+#dropbtn {
+    background-color: #1D6598;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    background-color: #4496CF;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content-list {
+    display: inline-flex;
+    width: 100%;
+}
+
+.dropdown-content-list a {
+    width: 100%;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(91 175 236 / 0.85);
+}
+
+.dropdown:hover > .dropdown-content {
+    max-height: 300px;
+    -webkit-transition: max-height 0.5s ease;
+    transition: max-height 0.5s ease;
 }
 
 .maintain {
     position: absolute;
     bottom: 0;
     font-size: 12px;
+    padding: 0 20px;
 }
 
 .maintain a {
