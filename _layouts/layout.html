@@ -4,13 +4,57 @@
 {% include head.html %}
 <body>
     <div class="container">
-        <section class="sidebar">
+        <div id="shade" onclick="closeSidebar()"></div>
+        <section class="sidebar" id="sidebar">
             {% include sidebar.html %}
         </section>
 	    <section class="content-container">
+            <div class="mobile">
+                <a id="sidebtn" onclick="openSidebar()">
+                    <svg viewBox="0 0 100 80" width="30" height="30">
+                        <rect x="10" y="10" width="75" height="10" rx="8"></rect>
+                        <rect x="10" y="35" width="75" height="10" rx="8"></rect>
+                        <rect x="10" y="60" width="75" height="10" rx="8"></rect>
+                    </svg>
+                </a>
+                <h1>OS211/irfancen</h1>
+            </div>
             <div class="content">
     		    {{ content }}
             </div>
 	    </section>
     </div>
+    <script>
+        var sidebar = document.getElementById("sidebar");
+        var shade = document.getElementById("shade");
+        var x = window.matchMedia("(max-width: 768px)");
+ 
+        sidebar.addEventListener("click", openSidebar);
+        shade.addEventListener("click", closeSidebar);
+
+        prevent(x);
+        x.addListener(prevent);
+
+        function openSidebar() {
+            sidebar.classList.add("active");
+            sidebar.style.maxWidth = "300px";
+            shade.style.display = "block";
+        }
+        
+        function closeSidebar() {
+            sidebar.classList.remove("active");
+            sidebar.style.maxWidth = "0px";
+            shade.style.display = "none";
+        }
+
+        function prevent(x) {
+            if (x.matches) {
+                sidebar.style.maxWidth = "0px";
+                shade.style.display = "none";
+            } else {
+                sidebar.style.maxWidth = "300px";
+                shade.style.display = "none";
+            }
+        }
+    </script>
 </body>

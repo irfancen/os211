@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+.active {
+    transition: max-width 0.3s ease;
+}
+
 .home {
     text-align: center;
 }
@@ -30,15 +34,30 @@ a {
     flex-direction: row;
     height: 100%;
 }
+
+#shade {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
 .sidebar {
-    display: block;
-    width: 300px;
+    height: 100%;
+    z-index: 1;
+    max-width: 300px;
     background-color: #267CB9;
     color: white;
+    transition: max-width 0.3s ease;
 }
 
 .navbar {
     width: 100%;
+}
+
+.nav-item {
+    width: 256px!important;
 }
 
 .navbar a {
@@ -98,6 +117,7 @@ a {
 }
 
 .maintain {
+    width: 256px;
     position: absolute;
     bottom: 0;
     font-size: 12px;
@@ -106,6 +126,35 @@ a {
 
 .maintain a {
     color: #adffe8;
+}
+
+.mobile {
+    display: none;
+    width: 100%;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #267CB9;
+    color: white;
+}
+
+.mobile h1 {
+    margin: 0;
+    text-align: center;
+}
+
+#sidebtn {
+    position: absolute;
+    left: 15px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+#sidebtn > svg {
+    padding: 5px;
+    fill: white;
+    background-color: rgba(38, 124, 185);
+    border-radius: 15px;
 }
 
 .content-container {
@@ -184,4 +233,25 @@ a {
 }
 ::-webkit-scrollbar-corner {
     background: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+    #shade {
+        display: none;
+    }
+    
+    .mobile {
+        display: flex;
+    }
+
+    .sidebar {
+        max-width: 0px;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
 }
