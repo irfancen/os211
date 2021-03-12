@@ -47,3 +47,4 @@ ZCZC W02  15 L10 Assignment (General): ATM cbkadal myscript.sh
 ZCZC W02  90 L04 Github Pages related: Change layout for future weekly tasks
 ZCZC W02  10 L05 GSGS related: HTML, CSS, JS for responsive website
 ZCZC W02  60 L04 Github Pages related: Mobile view
+ZCZC W02  20 L04 Github Pages related: Bug Fix
