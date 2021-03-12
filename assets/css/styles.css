@@ -138,9 +138,12 @@ a {
     color: white;
 }
 
-.mobile h1 {
+.mlogo {
     margin: 0;
     text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
 }
 
 #sidebtn {
