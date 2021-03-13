@@ -23,9 +23,11 @@ function closeSidebar() {
 
 function prevent(x) {
     if (x.matches) {
+        sidebar.style.minWidth = "0px";
         sidebar.style.maxWidth = "0px";
         shade.style.display = "none";
     } else {
+        sidebar.style.minWidth = "256px"
         sidebar.style.maxWidth = "300px";
         shade.style.display = "none";
     }

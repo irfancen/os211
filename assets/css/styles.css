@@ -17,6 +17,7 @@ a {
 
 .active {
     transition: max-width 0.3s ease;
+    -webkit-transition: max-width 0.3s ease;
 }
 
 .home {
@@ -47,16 +48,18 @@ a {
     height: 100%;
     z-index: 1;
     max-width: 300px;
+    overflow: hidden;
     background-color: #267CB9;
     color: white;
     transition: max-width 0.3s ease;
+    -webkit-transition: max-width 0.3s ease;
 }
 
 .navbar {
     width: 100%;
 }
 
-.nav-item {
+.dropdown {
     width: 256px!important;
 }
 
@@ -72,12 +75,6 @@ a {
     -webkit-transition: 0.25s ease;
 }
 
-.dropdown {
-    width: 100%;
-    position: relative;
-    display: inline-block;
-}
-
 #dropbtn {
     background-color: #1D6598;
     color: white;
@@ -89,11 +86,11 @@ a {
 .dropdown-content {
     max-height: 0;
     overflow: hidden;
-    position: absolute;
     background-color: #4496CF;
     width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    transition: max-height 1s ease;
+    -webkit-transition: max-height 1s ease;
 }
 
 .dropdown-content-list {
@@ -254,7 +251,6 @@ a {
     .sidebar {
         max-width: 0px;
         position: absolute;
-        overflow: hidden;
     }
 
     ::-webkit-scrollbar {
