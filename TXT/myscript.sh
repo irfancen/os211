@@ -1,20 +1,28 @@
 FILES="my*.txt my*.sh"
 SHA="SHA256SUM"
 
-echo "Starting Script"
-echo ""
+echo "Starting Script..."
+echo
 
-echo "Removing $SHA and $SHA.asc"
+echo "Removing SHA Files..."
 rm -f $SHA $SHA.asc
+echo
 
-echo "Running Checksum"
+echo "Printing Checksum Hashes to $SHA..."
 sha256sum $FILES > $SHA
+echo
+
+echo "Checking Files..."
 sha256sum -c $SHA
+echo
 
-echo "Running gpg"
+echo "Signing Files..."
 gpg -o $SHA.asc -a -sb $SHA
-gpg --verify $SHA.asc $SHA
+echo
 
-echo ""
-echo "Exiting Script"
+echo "Verifying Files..."
+gpg --verify $SHA.asc $SHA
+echo
+
+echo "Exiting Script..."
 exit 0
