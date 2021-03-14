@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     margin: 0;
     height: 100%;
+    color: #E8F1F2;
 }
 
 a {
@@ -49,8 +50,9 @@ a {
     z-index: 1;
     max-width: 300px;
     overflow: hidden;
-    background-color: #267CB9;
-    color: white;
+    background-color: #006494;
+    color: #E8F1F2;
+    font-weight: bold;
     transition: max-width 0.3s ease;
     -webkit-transition: max-width 0.3s ease;
 }
@@ -65,19 +67,18 @@ a {
 
 .navbar a {
     display: block;
-    color: white;
+    color: #E8F1F2;
     padding: 12px 30px;
 }
 
 .navbar a:hover {
-    background-color: #4496CF;
+    background-color: #1B98E0;
     transition: 0.25s ease;
     -webkit-transition: 0.25s ease;
 }
 
 #dropbtn {
-    background-color: #1D6598;
-    color: white;
+    color: #E8F1F2;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -86,7 +87,7 @@ a {
 .dropdown-content {
     max-height: 0;
     overflow: hidden;
-    background-color: #4496CF;
+    background-color: #247BA0;
     width: 100%;
     z-index: 1;
     transition: max-height 1s ease;
@@ -103,10 +104,6 @@ a {
     text-align: center;
 }
 
-.dropdown-content a:hover {
-    background-color: rgb(91 175 236 / 0.85);
-}
-
 .dropdown:hover > .dropdown-content {
     max-height: 300px;
     -webkit-transition: max-height 0.5s ease;
@@ -118,6 +115,7 @@ a {
     position: absolute;
     bottom: 0;
     font-size: 12px;
+    font-weight: normal;
     padding: 0 20px;
 }
 
@@ -131,8 +129,8 @@ a {
     padding: 20px 0;
     align-items: center;
     justify-content: center;
-    background-color: #267CB9;
-    color: white;
+    background-color: #006494;
+    color: #E8F1F2;
 }
 
 .mlogo {
@@ -140,7 +138,7 @@ a {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    color: white;
+    color: #E8F1F2;
 }
 
 #sidebtn {
@@ -152,8 +150,8 @@ a {
 
 #sidebtn > svg {
     padding: 5px;
-    fill: white;
-    background-color: rgba(38, 124, 185);
+    fill: #E8F1F2;
+    background-color: #006494;
     border-radius: 15px;
 }
 
@@ -162,6 +160,7 @@ a {
     width: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
+    background-color: #13293D;
 }
 
 #title {
@@ -190,7 +189,7 @@ a {
 }
 
 .content > h3 > a {
-    color: #267CB9;
+    color: #1B98E0;
 }
 
 .content > h3 > a:hover {
@@ -210,7 +209,7 @@ a {
     height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgba(91, 175, 236, 0.85);
+    background: rgba(27,152,224, 0.5);
     border: 0px none #ffffff;
     border-radius: 50px;
 }
