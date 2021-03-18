@@ -50,3 +50,8 @@ ZCZC W02  60 L04 Github Pages related: Mobile view
 ZCZC W02  20 L04 Github Pages related: Bug Fix
 ZCZC W02 200 L10 Assignment (General): Top 10 Week 02
 ZCZC W02  30 L23 Discord: discussion, etc.
+ZCZC W03 100 L02 ZOOM related: Fourth syncronous class
+ZCZC W03  30 L06 Reading References/Books/Documents: OSC Chapter 13-15
+ZCZC W03  15 L08 Trying something: Trying Demo Week 03
+ZCZC W03  25 L10 Assignment (General): Tarball myW03.tar.bz2
+ZCZC W03   5 L10 Assignment (General): Update myscript.sh
