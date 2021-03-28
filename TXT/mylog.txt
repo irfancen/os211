@@ -59,3 +59,6 @@ ZCZC W03 180 L10 Assignment (General): Top 10 Week 03
 ZCZC W04 105 L02 ZOOM related: Fifth syncronous class
 ZCZC W04  20 L08 Trying something: ssh to os211.vlsm.org
 ZCZC W04  30 L10 Assignment (General): Tarball myW04.tar.bz2
+ZCZC W04  30 L06 Reading References/Books/Documents: OSC Chapter 9
+ZCZC W04  30 L08 Trying something: Trying Demo Week 04
+ZCZC W04  90 L23 Discord: discussion, etc.
