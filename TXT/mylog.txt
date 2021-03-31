@@ -63,3 +63,5 @@ ZCZC W04  30 L06 Reading References/Books/Documents: OSC Chapter 9
 ZCZC W04  30 L08 Trying something: Trying Demo Week 04
 ZCZC W04  90 L23 Discord: discussion, etc.
 ZCZC W04 150 L10 Assignment (General): Top 10 Week 04
+ZCZC W05 100 L02 ZOOM related: Sixth syncronous class
+ZCZC W05  60 L10 Assignment (General): Tarball myW05.tar.bz2 (RAM Size & DEMO05.txt)
