@@ -65,3 +65,8 @@ ZCZC W04  90 L23 Discord: discussion, etc.
 ZCZC W04 150 L10 Assignment (General): Top 10 Week 04
 ZCZC W05 100 L02 ZOOM related: Sixth syncronous class
 ZCZC W05  60 L10 Assignment (General): Tarball myW05.tar.bz2 (RAM Size & DEMO05.txt)
+ZCZC W05  15 L08 Trying something: Trying Demo Week 05
+ZCZC W05  60 L05 GSGS related: GSGS for Top 10 links
+ZCZC W05  20 L22 YouTube: How much RAM Windows actually need
+ZCZC W05  15 L22 YouTube: SoftRAM
+ZCZC W05 180 L10 Assignment (General): Top 10 Week 05
