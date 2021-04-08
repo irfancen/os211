@@ -70,3 +70,6 @@ ZCZC W05  60 L05 GSGS related: GSGS for Top 10 links
 ZCZC W05  20 L22 YouTube: How much RAM Windows actually need
 ZCZC W05  15 L22 YouTube: SoftRAM
 ZCZC W05 180 L10 Assignment (General): Top 10 Week 05
+ZCZC W06 100 L02 ZOOM related: Seventh syncronous class
+ZCZC W06  30 L10 Assignment (General): Tarball myW06.tar.bz2
+ZCZC W06  45 L08 Trying something: Trying Demo Week 05
