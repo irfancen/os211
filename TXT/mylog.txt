@@ -74,3 +74,5 @@ ZCZC W06 100 L02 ZOOM related: Seventh syncronous class
 ZCZC W06  30 L10 Assignment (General): Tarball myW06.tar.bz2
 ZCZC W06  45 L08 Trying something: Trying Demo Week 05
 ZCZC W06  30 L06 Reading References/Books/Documents: OSC Chapter 3-4
+ZCZC W06  60 L05 GSGS related: GSGS for Top 10 links
+ZCZC W06 200 L10 Assignment (General): Top 10 Week 06
