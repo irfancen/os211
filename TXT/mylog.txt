@@ -79,3 +79,5 @@ ZCZC W06 200 L10 Assignment (General): Top 10 Week 06
 ZCZC W07 110 L02 ZOOM related: Eighth syncronous class
 ZCZC W07  30 L10 Assignment (General): Tarball myW07.tar.bz2
 ZCZC W07  30 L06 Reading References/Books/Documents: OSC Chapter 6-8
+ZCZC W07  60 L05 GSGS related: GSGS for Top 10 links
+ZCZC W07 240 L10 Assignment (General): Top 10 Week 07
