@@ -84,3 +84,4 @@ ZCZC W07 240 L10 Assignment (General): Top 10 Week 07
 ZCZC W08 110 L02 ZOOM related: Ninth syncronous class
 ZCZC W08 120 L10 Assignment (General): LFS Chapter 1-4
 ZCZC W08  20 L06 Reading References/Books/Documents: OSC Chapter 5
+ZCZC W08 180 L10 Assignment (General): Top 10 Week 08
